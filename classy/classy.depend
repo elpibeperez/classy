@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1428352588 source:/home/perez/investigations/yacc-lexx/classy/commands.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"commands.h"
+
+1428349628 /home/perez/investigations/yacc-lexx/classy/commands.h
+
+1428419405 source:/home/perez/investigations/yacc-lexx/classy/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1428529462 source:/home/perez/investigations/yacc-lexx/classy/attributes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+
+1428528734 /home/perez/investigations/yacc-lexx/classy/attributes.h
+
+1428510732 source:/home/perez/investigations/yacc-lexx/classy/inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputs.h"
+
+1428347137 /home/perez/investigations/yacc-lexx/classy/inputs.h
+
+1428503181 source:/home/perez/investigations/yacc-lexx/classy/methods.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"methods.h"
+	"commands.h"
+
+1428503166 /home/perez/investigations/yacc-lexx/classy/methods.h
+	"commands.h"
+	"inputs.h"
+
+1428503319 source:/home/perez/investigations/yacc-lexx/classy/syntactic_structure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"syntactic_structure.h"
+
+1428420791 /home/perez/investigations/yacc-lexx/classy/syntactic_structure.h
+	"attributes.h"
+	"methods.h"
+
+1428511081 source:/home/perez/investigations/yacc-lexx/classy/inputs_tests.c
+	<check.h>
+	"inputs.h"
+
+1428529537 source:/home/perez/investigations/yacc-lexx/classy/attributes_tests.c
+	<check.h>
+	"attributes.h"
+	<string.h>
+
+1428520882 source:/home/perez/investigations/yacc-lexx/classy/run_tests.c
+	"inputs_tests.h"
+	"attributes_tests.h"
+
+1428520814 /home/perez/investigations/yacc-lexx/classy/inputs_tests.h
+
+1428520823 /home/perez/investigations/yacc-lexx/classy/attributes_tests.h
+

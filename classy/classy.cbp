@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="classy" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/classy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="check" />
+					<Add library="m" />
+					<Add library="pthread" />
+					<Add library="rt" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/classy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="attributes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="attributes.h" />
+		<Unit filename="attributes_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="attributes_tests.h" />
+		<Unit filename="commands.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="commands.h" />
+		<Unit filename="inputs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inputs.h" />
+		<Unit filename="inputs_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inputs_tests.h" />
+		<Unit filename="methods.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="methods.h" />
+		<Unit filename="methods_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="methods_tests.h" />
+		<Unit filename="run_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="syntactic_structure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="syntactic_structure.h" />
+		<Unit filename="syntactic_structure_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="syntactic_structure_test.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
